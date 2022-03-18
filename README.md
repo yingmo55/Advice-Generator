@@ -19,7 +19,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 
 ## Overview
-A web app that pulls a random advice from [Advice Slip API](https://api.adviceslip.com) when you click the button, built with vanilla JavaScript, HTML, and CSS.
+A web app that pulls a random advice from [Advice Slip API](https://api.adviceslip.com) when you click the button, built with plain JavaScript, HTML, and CSS.
 
 ### The challenge
 I don't get many chances to work with API calls, and this was a good refresher on how to do it.
@@ -30,8 +30,8 @@ I don't get many chances to work with API calls, and this was a good refresher o
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/yingmo55/Advice-Generator](https://github.com/yingmo55/Advice-Generator)
+- Live Site URL: [https://yingmo55.github.io/Advice-Generator/](https://yingmo55.github.io/Advice-Generator/)
 
 ## My process
 I first add the API calls function in a separate .js file since it is the essential part of the challenge. After making the functions work, I start adjusting the style.
