@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Frontend Mentor | Advice generator app</title>
+  <script src="./main.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+  </style>    
+</head>
+<body>
+  <div class="adviceContainer">
+    <p class="advice-ID">ADVICE #
+      <span id="adviceID"></span>
+    </p>
+    <p id="adviceContent">
+      Click for a quote
+    </p>
+    <div class="divider"></div>
+    <button id="randomAdviceBtn" onclick="getRandomAdvice()">
+    </button>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/yingmo55/" target="_blank">Ying</a>.
+  </footer>
+</body>
+</html>
